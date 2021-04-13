@@ -9,6 +9,7 @@
     <link rel="icon" type="image/png" href="favicon.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" />
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="shimmer.css">
 </head>
 
 <body>
@@ -17,28 +18,10 @@
     <h1>PIXABAY API - INFINITE SCROLL</h1>
     <!-- Loader -->
     <div class="loader" id="loader">
-        <img src="loader.svg" alt="loading">
-        <box class="shine"></box>
-
-        <div>
-            <lines class="shine"></lines>
-            <lines class="shine"></lines>
-            <lines class="shine"></lines>
-        </div>
-
-        <photo class="shine"></photo>
-        <photo class="shine"></photo>
-
-        <br>
-
-        <box class="shine"></box>
-
-        <div>
-            <lines class="shine"></lines>
-            <lines class="shine"></lines>
-            <lines class="shine"></lines>
-        </div>
-
+        <!-- <img src="loader.svg" alt="loading"> -->
+        <div id="shine" class="shine"></div> <br>
+        <div id="shine" class="shine"></div> <br>
+        <div id="shine" class="shine"></div> <br>
     </div>
     <!-- Image Container -->
     <div class="image-container" id="image-container">
